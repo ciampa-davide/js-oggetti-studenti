@@ -9,7 +9,9 @@ var student =
    }
 
 console.log(student);
-
+console.log("Nome", student.nome);
+console.log("Cognome", student.cognome);
+console.log("eta", student.eta);
 
 //----------------------------
 
@@ -69,25 +71,24 @@ console.log(insert);
 // js snack di andrea
 
 //crea un oggetto macchina chiedi tramite prompt alcuni dati
-// e poi stampala con un ciclo for
+// e poi stampala
 
-
-var car = {
-  "nome": "",
-  "modello": "",
-  "targa": "",
-  "allestimento": "",
-}
-var carName= prompt("Inserisci il nome della macchina");
-var carModel = prompt("inserisci il modello");
-var carPlate = prompt("inserisci il numero di targa");
-var style = prompt("inserisci l'allestimento");
-
-
-car.nome = carName;
-car.modello = carModel;
-car.targa = carPlate;
-car.allestimento = style;
-
-
-console.log(car);
+// var car = {
+//   "nome": "",
+//   "modello": "",
+//   "targa": "",
+//   "allestimento": "",
+// }
+// var carName= prompt("Inserisci il nome della macchina");
+// var carModel = prompt("inserisci il modello");
+// var carPlate = prompt("inserisci il numero di targa");
+// var style = prompt("inserisci l'allestimento");
+//
+//
+// car.nome = carName;
+// car.modello = carModel;
+// car.targa = carPlate;
+// car.allestimento = style;
+//
+//
+// console.log(car);
